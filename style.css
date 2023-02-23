@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lato:wght@300&family=Tilt+Warp&display=swap');
+
+body{
+    margin: 0;
+    padding: 0%;
+    display: flex;
+}
+
+    /* BaseDiv */
+
+   .base{
+    width: 100%;
+    height: 800px;
+
+    display: flex;
+    background-image: linear-gradient(45deg, #424242, #424242, #616161, #757575, #9E9E9E);
+   } 
+
+    /* PrincipalDiv */
+
+.principal{
+    width: 600px;
+    height: 750px;
+
+    box-shadow: 1px 4px 12px black;
+    background: transparent;
+}
+
+    /* InfolDiv */
+
+.info{
+    width: 895px;
+    height: 800px;
+
+    background: transparent;
+}
+
+    /* ConteudosDiv */
+
+.conteudo{
+    width: 680px;
+    height: 320px;
+
+    margin-left: 90px;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 8px;
+    border: 12px solid rgb(85, 67, 85);
+    box-shadow: 8px 8px 4px #000000;
+
+    background: red;
+}
+
+    /* AnimationDiv */
+
+.sites{
+    width: 680px;
+    height: 125px;
+    
+    display: flex;
+    position: absolute;
+    background: white;
+    
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+    
+.sites:hover {
+     opacity: 0.8;
+    transition: opacity 0.8s ease-out;
+}    
+
+.games{
+    width: 680px;
+    height: 125px;
+
+    display: flex;
+    position: absolute;
+    background: white;
+
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+.games:hover {
+    opacity: 0.8;
+    transition: opacity 0.8s ease-out;
+  }
+
+    /* TextosInfo */
+
+.nome{
+    font-size: 69px;
+    font-family: 'Tilt Warp', cursive;
+
+    margin-top: 190px;
+    margin-left: 150px;
+
+    color: rgb(41, 108, 129);
+}
+
+.prof{
+    font-size: 23px;
+    font-family: 'Kanit', sans-serif;
+
+    margin-left: 160px;
+
+    color: white;
+}
+
+.desc{
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+    line-clamp: 2;
+
+    margin-left: 160px;
+
+    color: rgb(255, 255, 255);
+}
+
+a{
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+}
+
+.site{
+    top: 0%;
+    left: 50%;
+    transform: translate(295px, 0%);
+}
+
+.game{
+    top: 0%;
+    left: 50%;
+    transform: translate(272px, 0%);
+}
+
+    /* RedesDiv */
+
+.redes{
+    width: 600px;
+    height: 100px;
+
+    display: flex;
+    background: transparent;
+}
+
+    /* RedesImg */
+
+.instagram{
+    width: 30px;
+    height: 30px;
+
+    border-color: transparent;
+    border-radius: 8px;
+    display: block;
+    margin-top: 35px;
+    margin-left: 160px;
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+.instagram:hover {
+    background-color: rgb(29, 157, 255);
+  }
+
+  .twitter{
+    width: 30px;
+    height: 30px;
+
+    border-color: transparent;
+    border-radius: 4px;
+    display: block;
+    margin-top: 35px;
+    margin-left: 30px;
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+.twitter:hover {
+    background-color: rgb(29, 157, 255)
+  }
+
+    /* IconGuia */
+
+.icon{
+    width: 20px; 
+    height: 20px; 
+
+    margin-right: 10px;
+    display: inline-block; 
+    vertical-align: middle; 
+}
